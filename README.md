@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Q2blog-ui
 
 This README outlines the details of collaborating on this Ember application.
@@ -51,3 +52,6 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+=======
+# q2blog_ui
+>>>>>>> d4863ff33a70f02d9f3088729d0e761db0ac4a32
