@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{model.title}}</h3>
+    </div>
+    <div class="panel-body">
+        <p>
+          {{model.body}}
+        </p>
+        <p>
+            <label class="label label-default">Date Created</label>
+        <div>{{model.dateCreated}}</div>
+        </p>
+        <p>
+            <label class="label label-default">Date Modified</label>
+        <div>{{model.dateModified}}</div>
+        </p>
+        <div>
+          {{link-to "Edit" "articles.edit" model class="btn btn-default"}}
+            &nbsp;
+            <a class="btn btn-danger" href="#" {{action "delete" model}}>Delete</a>
+        </div>
+    </div>
+</div>
