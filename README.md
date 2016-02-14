@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Q2blog-ui
 
 This README outlines the details of collaborating on this Ember application.
@@ -54,4 +53,4 @@ Specify what it takes to deploy your app.
 
 =======
 # q2blog_ui
->>>>>>> d4863ff33a70f02d9f3088729d0e761db0ac4a32
+
