@@ -21,13 +21,3 @@ install:
 
 script:
   - npm test
-
-before_deploy: "ember build --env=production"
-
-deploy:
-  provider: azure_web_apps
-  local_dir: dist
-  skip_cleanup: true
-cache:
-  directories:
-    - node_modules
