@@ -9,7 +9,7 @@ moduleFor('adapter:application', 'Unit | Adapter | application', {
 test('it exists', function(assert) {
   let adapter = this.subject();
 
-  throw new Error('I am an error');
+  //throw new Error('I am an error');
 
   assert.ok(adapter);
 });
