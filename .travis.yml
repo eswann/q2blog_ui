@@ -5,6 +5,9 @@ node_js:
 
 sudo: false
 
+notifications:
+  slack: q2blog-demo:P4jg1PK5kd5eIcWoh9z20rHV
+
 cache:
   directories:
     - node_modules
